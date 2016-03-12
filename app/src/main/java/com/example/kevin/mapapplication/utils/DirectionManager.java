@@ -2,6 +2,7 @@ package com.example.kevin.mapapplication.utils;
 
 import android.graphics.Color;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
@@ -165,8 +166,12 @@ public class DirectionManager {
 
                 lineOptions.color(Color.argb(200, 91, 93, 255));
             }
-
-            DirectionLine = mGoogleMap.addPolyline(lineOptions);
+            if(lineOptions!=null) {
+                DirectionLine = mGoogleMap.addPolyline(lineOptions);
+            }
+            else {
+                Log.i("Direction Failed", "Cannot reach destination");
+            }
         }
     }
 

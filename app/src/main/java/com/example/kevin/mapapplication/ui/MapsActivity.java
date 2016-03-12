@@ -252,13 +252,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Mapinit();
 
         //////////////TEST_ONLY//////////////////////////////////////////////////////////////////////////
-        Marker markerG = mMap.addMarker(new MarkerOptions().draggable(true)
+        Marker markerG = mMap.addMarker(new MarkerOptions()
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
                 .position(CurrentPosition));
-        Marker markerB = mMap.addMarker(new MarkerOptions().draggable(true)
+        Marker markerB = mMap.addMarker(new MarkerOptions()
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
                 .position(CurrentPosition));
-        Marker markerR = mMap.addMarker(new MarkerOptions().draggable(true)
+        Marker markerR = mMap.addMarker(new MarkerOptions()
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
                 .position(CurrentPosition));
 
