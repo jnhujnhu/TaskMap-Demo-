@@ -52,12 +52,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Points"
+        android:text=" Points/hour"
         android:id="@+id/textView18"
         android:layout_alignTop="@+id/dialog_reward"
         android:layout_toEndOf="@+id/dialog_reward"
         android:textColor="#000000"
-        android:textSize="@dimen/dialog_normal_textsize" />
+        android:textSize="12dp"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:layout_above="@+id/textView17"
+        android:layout_marginBottom="-3dp" />
 
     <TextView
         android:layout_width="wrap_content"

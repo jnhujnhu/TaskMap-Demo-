@@ -118,12 +118,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:text="Points"
+        android:text="Points/hour"
         android:id="@+id/textView7"
         android:layout_alignTop="@+id/tag_reward"
         android:gravity="center"
         android:layout_alignEnd="@+id/tag_type_spinner"
         android:layout_toEndOf="@+id/tag_cancel_button"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:textSize="12dp" />
 
 </RelativeLayout>
