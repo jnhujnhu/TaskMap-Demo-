@@ -83,8 +83,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private TaskInformer taskInformer;
     private TagButtonManager tagButtonManager;
 
-    private float ZoomLevel = 17f;
-    public final static int REQUEST_CODE = 233;
+    private static final float ZoomLevel = 17f;
+    public static final int REQUEST_CODE = 233;
     private static final int TOUCH_USER_DETAIL = 1;
     private static final int TOUCH_QUERY_FOCUSED = 2;
     private static final int TOUCH_QUERY_UNFOCUSED = 3;
